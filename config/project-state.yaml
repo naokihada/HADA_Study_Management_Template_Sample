@@ -1,0 +1,18 @@
+{
+  "initialization_status": "initialized",
+  "domain_lock_status": "locked",
+  "domain_family": "qualification",
+  "domain_variant": "second-class-electrician",
+  "template_version": "1.0.0",
+  "schema_version": "1.0.0",
+  "data_format_version": "1.0.0",
+  "initialized_at": "2026-09-11T00:00:00+09:00",
+  "domain_history": [
+    {
+      "from_domain": null,
+      "to_domain": "second-class-electrician",
+      "change_type": "initialization",
+      "confirmation_status": "not_required"
+    }
+  ]
+}

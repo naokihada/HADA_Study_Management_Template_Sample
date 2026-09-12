@@ -1,0 +1,12 @@
+{
+  "learner_id": "learner-001",
+  "legal_name": "",
+  "display_name": "Sample Learner",
+  "grade_or_stage": "",
+  "current_stage": "",
+  "profile_status": "active",
+  "visibility": "private",
+  "available_time": "",
+  "constraints": "",
+  "timezone": "Asia/Tokyo"
+}

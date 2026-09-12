@@ -1,0 +1,3 @@
+observation_id,metric_id,observed_at,value,source_reference,verification_status,visibility,notes
+observation-001,metric-study-minutes,2026-09-01T20:00:00+09:00,180,session-log,recorded,summary,Weekly sample observation
+observation-002,metric-written-accuracy,2026-09-05T19:00:00+09:00,76,mock-001,reported,summary,Sample mock result

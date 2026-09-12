@@ -1,0 +1,2 @@
+session_id,date,started_at,ended_at,duration_minutes,goal_ids,subject_ids,resource_ids,issue_ids,activity_type,content,fatigue_level,focus_level,self_assessment,notes,created_at,updated_at
+session-20260911-001,2026-09-11,2026-09-11T19:00:00+09:00,2026-09-11T20:00:00+09:00,60,goal-electrician,electrical-theory,resource-textbook,ELEC-1,PRACTICE,筆記問題を20問演習,2,4,基礎は安定,

@@ -1,0 +1,3 @@
+metric_id,name,unit,direction,target_value,source_type,source_location,visibility
+metric-study-minutes,Study time,minutes,increase,1200,self,Local study record,summary
+metric-written-accuracy,Written exam accuracy,percent,increase,80,assessment,Mock exam,summary

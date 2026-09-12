@@ -1,0 +1,3 @@
+issue_id,issue_type,title,description,status,priority,sprint_id,epic_id,parent_issue_id,due_date,dependency_ids,labels,acceptance_criteria,related_goal_ids
+ELEC-1,STORY,筆記試験の基礎問題を一巡する,,DONE,HIGH,sprint-2026-01,epic-written,,,"",written,基礎問題を一巡,goal-electrician
+ELEC-2,STORY,技能試験候補問題を練習する,,IN_PROGRESS,HIGH,sprint-2026-02,epic-practical,,,"",practical,候補問題を練習,goal-electrician

@@ -1,0 +1,3 @@
+sprint_id,name,start_date,end_date,status,goal
+sprint-2026-01,2026年 前半Sprint,2026-01-01,2026-05-31,DONE,筆記試験基礎
+sprint-2026-02,2026年 後半Sprint,2026-06-01,2026-10-26,ACTIVE,技能試験と総仕上げ

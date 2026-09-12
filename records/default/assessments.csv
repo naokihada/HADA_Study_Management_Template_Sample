@@ -1,0 +1,2 @@
+assessment_id,target_id,assessment_type,assessment_date,subject_id,score,max_score,percentage,deviation_value,rank,judgement,evaluation_scale,weakness_tags,growth_notes,evidence_notes
+assessment-20260911-001,target-electrician-written,PRACTICE_TEST,2026-09-11,electrical-theory,16,20,80,,,,PERCENTAGE,配線図,正答率を維持,

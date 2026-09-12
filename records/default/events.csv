@@ -1,0 +1,3 @@
+event_id,event_type,title,start_at,end_at,all_day,timezone,importance,status,goal_ids,target_ids,venue,address,reservation_reference,notes,created_at,updated_at
+event-written-exam,EXAM,第二種電気工事士 筆記試験,2026-09-27T09:00:00+09:00,2026-09-27T12:00:00+09:00,false,Asia/Tokyo,HIGH,PLANNED,goal-electrician,target-electrician-written,,,"",,
+event-practical-exam,PRACTICAL_EXAM,第二種電気工事士 技能試験,2026-10-26T10:00:00+09:00,2026-10-26T12:30:00+09:00,false,Asia/Tokyo,CRITICAL,PLANNED,goal-electrician,target-electrician-practical,,,"",,
