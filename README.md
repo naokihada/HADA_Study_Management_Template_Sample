@@ -1,6 +1,6 @@
 # HADA Study Management Template — Sample 1
 
-対応Templateバージョン: `1.0.0`
+対応Templateバージョン: `1.1.0`
 
 第2種電気工事士を題材にした、HADA Study Management Templateの架空サンプルです。
 
