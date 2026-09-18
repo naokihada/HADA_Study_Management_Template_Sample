@@ -3,7 +3,7 @@
   "domain_lock_status": "locked",
   "domain_family": "qualification",
   "domain_variant": "second-class-electrician",
-  "template_version": "1.1.1",
+  "template_version": "1.2.0",
   "schema_version": "1.0.0",
   "data_format_version": "1.0.0",
   "initialized_at": "2026-09-11T00:00:00+09:00",

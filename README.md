@@ -1,6 +1,6 @@
 # HADA Study Management Template — Sample 1
 
-対応Templateバージョン: `1.1.1`
+対応Templateバージョン: `1.2.0`
 
 第2種電気工事士を題材にした、HADA Study Management Templateの架空サンプルです。
 
@@ -27,6 +27,46 @@ python tools/study_cli.py domain-change --to soulcalibur-6
 python tools/study_cli.py ai-reset
 python -m unittest discover -s tests -v
 ```
+
+## Python setup and optional dependencies
+
+基本的な検証、カレンダー、写真一覧、計画確認だけなら、追加パッケージなしで動作します。
+
+PDFのテキスト抽出や画像情報の読み取りを使う場合は、リポジトリのルートで次を実行してください。
+
+```text
+python -m venv .venv
+```
+
+Windows PowerShellの場合:
+
+```text
+.venv\Scripts\Activate.ps1
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+macOS・Linuxの場合:
+
+```text
+source .venv/bin/activate
+python -m pip install --upgrade pip
+python -m pip install -r requirements.txt
+```
+
+`requirements.txt`には、PDF抽出用の`pypdf`と画像解析用の`Pillow`が含まれています。インストールできない場合でも、コアCLIは動作します。OCRを使う場合は、Pythonパッケージとは別にTesseract本体が必要です。
+
+外部取り込み対応版では、次のコマンドを使えます。
+
+```text
+python -m tools.study_cli import-inbox --dry-run
+python -m tools.study_cli import-inbox
+python -m tools.study_cli import-inbox --watch --interval 30
+python -m tools.study_cli import-url --url https://example.com/page
+python -m tools.study_cli import-chat --url chat-export.json
+```
+
+`--dry-run`はファイルを移動しません。外部URLやチャットの元データは自動削除されません。
 
 高校受験のSample 2は、別のサンプルプロジェクトとして将来追加します。
 
