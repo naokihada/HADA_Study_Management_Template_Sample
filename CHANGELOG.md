@@ -1,5 +1,14 @@
 # Changelog
 
+## v1.3.0
+
+- Updated the fictional sample to the migration-safe v1.3.0 baseline.
+- Added the expanded ownership and version-carrier contract.
+- Added synchronized Dev, Template, and Sample release-set validation support.
+- Preserved public `AGENTS.md` and `AI/README.md` as required operational files.
+- Added manifest-driven public boundary checks and full AI Reset structure restoration.
+- Schema and data format remain `1.0.0`.
+
 ## v1.2.0
 
 - Added the external import implementation from the v1.2.0 Template baseline.

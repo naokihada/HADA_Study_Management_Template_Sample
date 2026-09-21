@@ -1,8 +1,11 @@
 # HADA Study Management Template — Sample 1
 
-対応Templateバージョン: `1.2.0`
+対応Templateバージョン: `1.3.0`
 
 第2種電気工事士を題材にした、HADA Study Management Templateの架空サンプルです。
+
+運用規則は [AGENTS.md](AGENTS.md)、AI作業領域の境界は [AI/README.md](AI/README.md)、
+用途別ガイドは [Usage guide index](docs/guides/README.md) を参照してください。
 
 含まれる例:
 
@@ -113,6 +116,16 @@ python -m tools.study_cli import-chat --url chat-export.json
 - [Mobile photo workflow（モバイル写真運用）](docs/guides/mobile-photo-workflow.md) — 携帯写真を手動で年別フォルダへ取り込む方法。
 
 このSampleの実データは第2種電気工事士の架空例です。Soulcalibur VIなどの他用途は、同じテンプレートを設定変更して利用するガイド例として掲載しています。
+
+## Template upgrade safety
+
+このSampleはv1.3.0の架空データで検証されています。Template更新時は、
+ユーザーデータを保護するCandidate-first手順を使います。詳細は
+[Template Upgrade](docs/template-upgrade.md) を参照してください。
+
+AI Resetは実験的・上級者向けの機能です。実行前にdry-runを確認してください。
+`--apply`を指定すると`AI/`の全内容を削除し、リポジトリ内のバージョン管理された
+構造と`AI/README.md`を復元します。このSampleの架空データは`AI/`外部にあります。
 
 ## Disclaimer and freedom of use
 
